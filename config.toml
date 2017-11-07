@@ -1,0 +1,30 @@
+baseURL = "https://blog.mberkow.com/"
+languageCode = "en-us"
+title = "mberkow"
+theme = "hugo-dusk"
+
+[author]
+  name = "Mendy Berkowitz"
+
+SectionPagesMenu = "main"
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[params.meta]
+  description = "All of us are the heroes of our own lives."
+
+[params]
+  github = "mberkow"
+  twitter = "mlberkow"
+  linkedin = "mendyberkowitz"
+

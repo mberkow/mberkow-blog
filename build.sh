@@ -2,16 +2,6 @@
 
 set -e 
 
-if [[ -z $AWS_ACCESS_KEY_ID ]]; then
-	echo "AWS creds not set"
-	exit 1
-fi
-
-if [[ -z $AWS_SECRET_ACCESS_KEY ]]; then
-	echo "AWS creds not set"
-	exit 1
-fi
-
 # Build
 hugo -v
 

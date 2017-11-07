@@ -16,4 +16,4 @@ phases:
       - rm -rf /tmp/hugo*
   build:
     commands:
-      - sync.sh
+      - build.sh

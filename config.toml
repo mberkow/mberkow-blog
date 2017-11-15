@@ -2,6 +2,7 @@ baseURL = "https://blog.mberkow.com/"
 languageCode = "en-us"
 title = "mberkow"
 theme = "hugo-dusk"
+googleAnalytics = "UA-79306-4"
 
 [author]
   name = "Mendy Berkowitz"

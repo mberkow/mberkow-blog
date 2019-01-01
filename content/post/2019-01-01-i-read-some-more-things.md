@@ -25,6 +25,7 @@ Two of the deltas from last year strike me as interesting. The ration of Fiction
 For next year in addition to number of books read I’m setting two additional goals. First I want to read at least five new fiction authors. I don’t want to get lost in  catching up on what some newly discovered authors have written and keeping up with various series and trilogies. Second I want to write some blurb about every book I read. It might not be a review or a summary but something to help me remember the book and how I felt after reading.
 
 Book List
+
 * __City of Stairs__ Bennett, Robert
 * __The Upstarts__ Stone, Brad
 * __Persepolis Rising__ Corey, James

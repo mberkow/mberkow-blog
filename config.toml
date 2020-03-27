@@ -21,10 +21,10 @@ SectionPagesMenu = "main"
   identifier = "tag"
   url = "/tags/"
 
-[params.meta]
+[Params.meta]
   description = "All of us are the heroes of our own lives."
 
-[params]
+[Params]
   github = "mberkow"
   twitter = "mlberkow"
   linkedin = "mendyberkowitz"

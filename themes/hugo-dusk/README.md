@@ -5,11 +5,13 @@ Simple minimalistic dark theme for [Hugo](https://gohugo.io/).
 ## Features
 
 * Responsive minimalistic design
-* Syntax highlight with [highlight.js](https://highlightjs.org/)
+* Configurable theme colors (with custom css file)
+* Syntax highlight with builtin [Chroma](http://gohugo.io/content-management/syntax-highlighting/)
 * [OpenGraph](http://ogp.me/), [Twitter cards](https://dev.twitter.com/cards/overview) support
 * [Disqus](https://disqus.com/) comments support
+* [Utterances](https://utteranc.es/) comments support
 * [Google analytics](https://www.google.com/analytics/) (async)
-* Configrable pagination for posts
+* Configurable pagination for posts
 * Lazy menu
 * Custom 404 page
 
@@ -42,6 +44,11 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+
 [[menu.main]]
   name = "Posts"
   weight = -120
@@ -64,4 +71,8 @@ SectionPagesMenu = "main"
   twitter = "twitter id"
   linkedin = "linkedin id"
   email = "myemail"
+  theme_colors = "default-dark" # uses color css file under static/css/default-dark.css
+  utterancesRepo="REPO_NAME" # Utterances is enabled when this param is set
+  utterancesTheme="github-dark" # Default: github-dark
+  utterancesIssueTerm="pathname" # Default: pathname
 ~~~~

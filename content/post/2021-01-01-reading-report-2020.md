@@ -27,7 +27,7 @@ Book List
 
 * __Atomic Habits__ Clear, James
 * __Citizen Soldiers__ Ambrose, Stephen
-* __The Bayern AgendavMoren, Dan
+* __The Bayern Agend__ Moren, Dan
 * __Trail of Lightning__ Roanhorse, Rebecca
 * __Supernova Era__ Liu, Cixin
 * __Letters to My Palestinian Neighbor__ Levi, Yossi Klien

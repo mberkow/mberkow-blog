@@ -1,3 +1,5 @@
 *.swp
 public/
 .DS_Store
+server
+.hugo*

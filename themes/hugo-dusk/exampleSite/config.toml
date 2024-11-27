@@ -13,16 +13,11 @@ disqusShortname = ""
 
 SectionPagesMenu = "main"
 
-# use Chroma for syntax highlight
-pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
-# enable syntax highlight for code blocks
-pygmentsCodeFences = true
-
 [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = -120
-  identifier = "post"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
 [[menu.main]]
   name = "Tags"
@@ -30,28 +25,46 @@ pygmentsCodeFences = true
   identifier = "tag"
   url = "/tags/"
 
+[[menu.main]]
+  name = "Archive"
+  weight = -100
+  identifier = "archive"
+  url = "/archive/"
+
 [taxonomies]
+  archive = "archive"
+  blog = "blog"
   category = "categories"
-  group = "groups"
   series = "series"
   tag = "tags"
 
 # Configure syntax highlight
 [markup]
   [markup.highlight]
-    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+    style = "gruvbox"  # dark themes: monokai, api, fruity, native, rrt, swapoff ... https://xyproto.github.io/splash/docs/longer/all.html
 
-[author]
-  name = ""
+[params.author]
+  name = "Author name"
+  intro = """\
+    'hugo-dusk' theme for [hugo](https://gohugo.io/) an open-source static site generator.\
+  """
 
 [params.meta]
   keywords = ""
   description = "Personal blog."
+[params.meta.fediverse]
+  creator = "@username@mastodon.server" # https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 
 [params]
+  mainSections = ['blog']
   email = "myemail"
   github = "github id"
   #gitlab = "gitlab id"
   twitter = "twitter id"
   #linkedin = "linkedin id"
   theme_colors = "default-dark"
+  enable_separate_main_page = false # enable a separate main page with author intro and recent posts instead of the list of posts
+
+[params.mastodon] # https://joinmastodon.org/verification
+  username = "username"
+  server = "https://example.com"
